@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+header{
+    height: 20vh;
+
+}
+.mainbody{
+    background: linear-gradient(to left, #F3F0CA, #BAD6B5);
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 20%;
+    color: black;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px gray;
+
+.navdiv{
+    display:flex;
+    align-items: center;
+}
+}
+nav>div>ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+ul>li{
+    margin: 0px 10px;
+}
+button{
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    margin: 0px 20px;
+
+}
+.ltc{
+background-color: transparent;
+color: #ffffff;
+padding: 12px;
+}
+
+.log{
+    background-color: #2A862E;
+    color: white;
+    border: 2px solid #2A862E;
+    padding: 12px 20px;
+    }
+    .log:hover{
+        color: white;
+        background-color: #257629;
+    }
+    .ltc:hover{
+        color: #ffffff;
+        border: 2px solid #257629;
+    }
+
+    main{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .maindiv{
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+
+    }
+
+    .maindiv>p{
+        color: #ffffff;
+        background-color: #257629;
+        border-radius: 5px;
+        padding: 10px;
+        width: 50%;
+    }
+    .maindiv>div>h1{
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    .seconddiv{
+        colour: black;
+    }
+
+    .seconddiv ul {
+        list-style-type: none; /* Remove the default bullet points */
+        padding-left: 0;       /* Remove left padding */
+    }
+    
+    .seconddiv ul li {
+        margin: 10px 0;         /* Add some space between list items */
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        color: black;
+    }
+    .secondbutton{
+        color: white;
+        font-size: larger;
+        background-color: green;
+        padding: 15px;
+        margin-top: 20px;
+    }
