@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(8, 167, 215);
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-left, .form-right {
+    width: 50%;
+}
+
+.form-left {
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    padding: 91px;
+   
+}
+
+.form-right {
+    background-color: #3608cf;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #1e90ff;
+}
+
+.form-right h2 {
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.form-right label {
+    color: white;
+}
+
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    outline: none;
+    border-bottom: 1px solid #333;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
