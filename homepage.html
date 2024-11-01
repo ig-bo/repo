@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.reboot.min.css">
+    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg">
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <!-- Left-aligned Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="Logo" width="50" height="50">
+          </a>
+      
+          <!-- Center Space (Flex-grow spacer) -->
+          <div class="flex-grow-1"></div>
+      
+          <!-- Right-aligned Nav Options -->
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+      
+
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container py-5">
+                <!-- Header Section -->
+                <div class="text-center mb-4">
+                  <h1>Add Your Key Product Benefit Here</h1>
+                </div>
+                
+                <!-- Text Section -->
+                <div class="text-center mb-3">
+                  <p>(Product Name) Helps (Target Audience) Solve (Common Audience Problem)</p>
+                </div>
+                
+                <!-- Button Section -->
+                <div class="text-center mb-4">
+                  <a href="#contact" class="btn btn-primary">Shop Now</a>
+                </div>
+                
+                <!-- Second Text Section -->
+                <div class="text-center mb-4">
+                  <p>Reviewed by 1000+ People</p>
+                </div>
+                
+                <!-- Portfolio Images Section -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Image/Guardian.png" class="card-img-top" alt="Portfolio Image 1">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Image/bloomberg.png" class="card-img-top" alt="Portfolio Image 2">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Image/cnn.png" class="card-img-top" alt="Portfolio Image 3">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Image/bbc.jpg" class="card-img-top" alt="Portfolio Image 4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <img src="./Image/lady.jpg" class="img-fluid faded-edge-image" alt="...">
+        </div>
+    </div>
+</div>
+
+<style>
+    /* CSS to create a left-only faded edge effect */
+    .faded-edge-image {
+        mask-image: linear-gradient(to right, transparent, black 30%);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 30%);
+    }
+</style>
+
+    
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+
+    <div class="container py-5">
+        <!-- Video Placeholder -->
+        <div class="video-placeholder" style="background-image: url('./Image/supermarket.jpg'); background-size: cover; background-position: center;">
+          <!-- Play Button (Optional) -->
+          <span class="play-button">&#9658;</span> <!-- Play symbol -->
+          <!-- Placeholder Text (Optional) -->
+          <p> </p>
+        </div>
+      </div>
+      
+      <style>
+        .video-placeholder {
+          width: 100%;
+          padding-top: 56.25%; /* 16:9 Aspect Ratio */
+          position: relative;
+          background-color: #ddd;
+          color: #555;
+          text-align: center;
+          background-repeat: no-repeat;
+        }
+        .video-placeholder .play-button {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 3rem;
+          color: #555;
+        }
+        .video-placeholder p {
+          position: absolute;
+          bottom: 10px;
+          width: 100%;
+          text-align: center;
+          font-size: 1rem;
+          color: #555;
+        }
+      </style>
+      
+
+</div>
+<div class="col-md-6">
+
+    <div class="container py-5">
+        <!-- Heading -->
+        <div class="text-center mb-3">
+          <h2>Introduce the main problem your product solves</h2>
+        </div>
+        
+        <!-- Text -->
+        <div class="text-center mb-3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum possimus eligendi voluptates unde, nulla inventore at architecto necessitatibus, eum, animi iure quo quae vel laborum fugit labore ipsum dolores?</p>
+        </div>
+        
+        <!-- Button -->
+        <div class="text-center">
+          <a href="#learn-more" class="btn btn-primary">I Want To Learn More</a>
+        </div>
+      </div>
+      
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+
+        <div class="container py-5">
+            <!-- Heading -->
+            <div class="mb-3">
+              <h2>Another Benefit Driven Headline</h2>
+            </div>
+            
+            <!-- Text -->
+            <div class="mb-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, reprehenderit.</p>
+            </div>
+            
+            <!-- Bullet Points Section -->
+            <ul class="list-unstyled">
+              <li>• Social Media Management</li>
+              <li>• Content Creation</li>
+              <li>• Digital Marketing Strategy</li>
+              <li>• SEO Optimization</li>
+            </ul>
+          </div>
+          
+
+    </div>
+    <div class="col-md-6">
+        <img src="./Image/blogger.jpg" class="img-fluid" alt="...">
+    </div>
+</div>    
+</div>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+        <img src="./Image/flower.jpg" class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-6">
+        <div class="container py-5">
+            <!-- Heading -->
+            <div class="text-center mb-3">
+              <h2>Another Benefit Driven Headline</h2>
+            </div>
+            
+            <!-- Text -->
+            <div class="text-center mb-3">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ea magni molestias dignissimos dolorem, harum, tenetur quam cupiditate sunt officiis, laboriosam voluptatem. Ipsam sequi amet ducimus quibusdam nemo ut temporibus!</p>
+            </div>
+            
+            <!-- Button -->
+            <div class="text-center">
+              <a href="#learn-more" class="btn btn-primary">This Button Is Unclear</a>
+            </div>
+          </div>
+          
+    </div>
+</div>
+</div>
+
+
+
+
+    <script src="./bootstrap5/js/bootstrap.js"></script>
+    <script src="./bootstrap5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
